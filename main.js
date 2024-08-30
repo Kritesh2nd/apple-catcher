@@ -33,11 +33,11 @@ class GameScene extends Phaser.Scene {
 
   preload() {
     this.load.image("bg", "/apple-catcher/public/assets/bg.png");
-    this.load.image("basket", "/apple-catcher/public/assets/basket.png");
-    this.load.image("apple", "/apple-catcher/public/assets/apple.png");
-    this.load.image("money", "/apple-catcher/public/assets/money.png");
-    this.load.audio("coin", "/apple-catcher/public/assets/coin.mp3");
-    this.load.audio("bgMusic", "/apple-catcher/public/assets/bgMusic.mp3");
+    this.load.image("basket", "/apple-catcher/assets/basket.png");
+    this.load.image("apple", "/apple-catcher/assets/apple.png");
+    this.load.image("money", "/apple-catcher/assets/money.png");
+    this.load.audio("coin", "/apple-catcher/assets/coin.mp3");
+    this.load.audio("bgMusic", "/apple-catcher/assets/bgMusic.mp3");
   }
   create() {
     this.scene.pause("scene-game");
