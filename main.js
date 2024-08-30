@@ -32,7 +32,7 @@ class GameScene extends Phaser.Scene {
   }
 
   preload() {
-    this.load.image("bg", "/apple-catcher/public/assets/bg.png");
+    this.load.image("bg", "/apple-catcher/assets/bg.png");
     this.load.image("basket", "/apple-catcher/assets/basket.png");
     this.load.image("apple", "/apple-catcher/assets/apple.png");
     this.load.image("money", "/apple-catcher/assets/money.png");
